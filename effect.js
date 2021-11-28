@@ -178,17 +178,18 @@ $('document').ready(function(){
 			$("p:nth-child("+i+")").fadeIn('slow').delay(1000);
 			if(i==50){
 				$("p:nth-child(49)").fadeOut('slow').promise().done(function () {
-					alert(Swal.fire({
-						title: 'LUASKAN LAYAR',
+											Swal.fire({
+						title: 'PESAN TERAKHIR',
 						text: 'Aku ingin mengatakan apa yang tidak pernah aku katakan, dan aku ingin sesuatu tetapi sesuatu yang tak ada, ',
 						footer: '<a href="https://api.whatsapp.com/send?phone=6285211662674&text=Terimakasih%udah%dilihat">Klik</a>',
+						showConfirmButtonText:false,
 						showClass: {
 						  popup: 'animate__animated animate__fadeInDown'
 						},
 						hideClass: {
 						  popup: 'animate__animated animate__fadeOutUp'
 						}
-					  }));
+					  });
 					$('.cake').fadeIn('fast');
 					
 					
