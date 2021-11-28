@@ -20,7 +20,21 @@ if( screenresolution<700){
   
   
   // document.getElementById("MyElement").classList.remove('MyClass');
- }else{
+ } else{
+  Swal.fire({
+    icon: 'success',
+    title: 'LUASKAN LAYAR',
+    text: 'Tekan F11 atau Fn+F11',
+    footer: 'by.me',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
+
+ 
 
   function $(id) {
     return document.getElementById(id);
