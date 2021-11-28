@@ -181,7 +181,7 @@ $('document').ready(function(){
 											Swal.fire({
 						title: 'PESAN TERAKHIR',
 						text: 'Aku ingin mengatakan apa yang tidak pernah aku katakan, dan aku ingin sesuatu tetapi sesuatu yang tak ada, ',
-						footer: '<a href="https://api.whatsapp.com/send?phone=6285211662674&text=Terimakasih%udah%dilihat">Klik</a>',
+						footer: '<a href="https://api.whatsapp.com/send?phone=6285211662674&text=Terimakasih udah dilihat">Klik</a>',
 						showConfirmButtonText:false,
 						showClass: {
 						  popup: 'animate__animated animate__fadeInDown'
