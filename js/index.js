@@ -4,8 +4,18 @@
   var allf = document.getElementById("allf")
 
 if( screenresolution<700){
-  var con = confirm("BUKANYA LEWAT LAPTOP YAHHHH :D ANGGUN")
-  con
+  Swal.fire({
+    icon: 'error',
+    title: 'GAK BOLEH BUKA DI HP',
+    text: 'Buka Lewat Laptop yah nggun',
+    footer: 'by.me',
+    showClass: {
+      popup: 'animate__animated animate__fadeInDown'
+    },
+    hideClass: {
+      popup: 'animate__animated animate__fadeOutUp'
+    }
+  })
   allf.classList.add('alloff');
   
   
